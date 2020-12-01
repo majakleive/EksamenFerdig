@@ -1,0 +1,197 @@
+/* Style for mobile */
+
+body {
+        font-family: "Courier New", Courier, monospace;
+        margin: 0;
+    }
+
+/* Menu */
+    
+    div {
+        display: block;
+    }
+
+    .dropdown {
+        overflow: hidden;
+        position: fixed;
+        z-index: 99;
+        width: 100%;
+        background-color: rgba(19,85,137, .8);
+
+    }
+
+    .links-div {
+        width: 100%;
+        margin-left: 20%;
+        padding-top: 2%;
+    }
+
+    .dropdown a {
+        color: white;
+        text-decoration: none;
+        font-size: 35px;
+        margin-right: 12%;
+        display: inline-block;
+        float: left;
+
+    }
+
+    .dropdown a:hover {
+        color: black;
+    }
+
+    .logo-div {
+        width: 10%;
+        float: left;
+    }
+
+    .bar1, .bar2, .bar3 {
+        display: none;
+    }
+
+
+    .logo {
+        width: 100%;
+        margin: 5%;
+    }
+
+
+
+/* Page */
+    
+    .img1 {
+        background-image: url(Bilder/128396928_769832350411618_1537548631497447141_n.jpg);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: -1;
+    }
+    <img src="404" alt="Plastic cup">
+
+
+    .section-main {
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: 0;
+        font-size: 20px;
+        height: 1000px;
+        
+    }
+
+.box{
+    max-width: 40%;
+    padding: 16px;
+    background-color: #f1f1f1;
+    opacity: 0.9;
+    margin-top: 8%;
+    height: 80%;
+    
+}
+.column {
+  padding: 30px;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #808080;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    resize: vertical;
+}
+
+button[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 2% 5%;
+    border: 2px solid;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button[type=submit]:hover {
+    background-color: rgba(19,85,137, 1);
+    color: black;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+/* Footer */
+
+
+.section-footer {
+    height: 450px;
+    background-color: rgba(19,85,137, .8);
+    font-size: 20px;
+    margin-bottom: 0;
+    color: white;
+    position: absolute;
+    bottom: -50%;
+    width: 100%;
+    
+}
+
+.designedBy {
+    background-color: rgba(19,85,137, 1);
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+.logo-footer {
+    padding: 5% 0 5% 2%;
+    width: 25%;
+    float: left;
+    margin-right: 5%;
+}
+
+.logo-footer img {
+    width: 100%;
+}
+
+.contact-us-footer {
+    width: 30%;
+    float: left;
+}
+
+.media-contact {
+    width: 35%;
+    float: left;
+}
+
+.footer-bottom {
+    background: rgba(19,85,137, .8);
+    color: black;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: -2000px;
+    left: 0px;
+    padding-top: 20px;
+    
+}
+
+.fa {
+    color: white;
+    padding: 20px;
+    font-size: 90px;
+    
+}
+
+.fa:hover {
+    color: black;
+    cursor: pointer;
+}
+
+
+
+

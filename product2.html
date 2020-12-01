@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>    
+    <meta charset="utf-8">
+        <title>Tidal-Blue</title>
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    
+        <link rel="stylesheet" href="product2-web.css">
+        <link rel="stylesheet" media="screen and (max-device-width: 800px)" href="product2-mobil.css">
+
+</head>
+<body>
+    
+    <!-- Menu -->
+    
+    <div class="dropdown">
+      <div class="container" onclick="myFunction(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
+        
+       <div class="logo-div">
+            <img src="Bilder/Menu/logo-mobil2.png" alt="Logo" class="logo">
+        </div> 
+
+        <div id="links">
+        <div class="links-div">
+            <a href="index.html">Home</a>
+            <a href="company.html">Company</a>
+            <a href="product2.html" style="font-weight: 600">Product</a>
+            <a href="contactus.html">Contact Us</a>
+        </div>
+      </div>
+
+    </div>
+    
+    
+    <!-- Page -->
+    
+    <section class="section-main">
+    <div class="content">  
+    <div class="text-box">
+              <h1 class="product-name">Cleanish <br> <span>Preserve a blue ocean</span></h1>
+              <p>To try and aid the minimization to plastic pollution, Tidal Blue have created the followin product:
+                  <br><br>
+                 The team have created Cleanish, a prototype of a remote-controlled ocean cleaner. Cleanish is a cylindrical object with a “mouth” for pollution waste to glide into. On each side of the cylinder is two “wings” for additional stabilization. Each wing will include a tiny electric propeller to increase movement. Localized at the back is a yarn for the collected plastic. 
+                </p>
+        
+        <!-- Slide Show -->
+        <center><section>
+            <img class="mySlides" src="Bilder/Product/ModellPlast.png" alt="Prototype"
+            style="width:80% !important">
+            <img class="mySlides" src="Bilder/Product/Modell2.png" alt="Prototype With Text"
+            style="width:80% !important">
+            <img class="mySlides" src="Bilder/Product/Modell3.png" alt="Controller Prototype"
+            style="width:80% !important">
+        </section>
+            </center>
+
+                <p>Due to the propellers, the collected plastic will stay in the yarn because of the pull effect. The yarn will consist of a fish repellent scent, so no fish or marine life will come to harm. A metal rod is attached to the back of cleanish, to keep the yarn in a stable manor. When the yarn is full, the user will steer the cleaner to himself, detach the yarn and throw the plastic at the nearest plastic recycle bin. Cleanish is intended for pollution at docs and bay areas, to prevent the spread further. A person will be able to control the product and clean the surface of the water intended.
+                <br><br>
+                    Tidal Blue is expanding their product development, in addition to Cleanish the company is exploring the possibilities of a deep-sea cleaner. The deep-sea cleaner will be able to go on long lasting missions and be able to obtain waste deep within the ocean.</p>
+        
+        <br><br>
+            <p>To prevent fish from swimming inside the product, future development will include a device that produces low- frequency hertz. Fish is sensitive to approximately 100 Hz, according to <a href="" title=""></a>. The installation of this device will keep the fish and other animals away.</p>
+
+            </div>
+        
+
+          </div>
+    </section>
+    
+    <section class="section-main section-footer">
+        <footer>
+            <div class="logo-footer">
+                <img src="Bilder/Menu/logo-web2.png" alt="Logo">
+            </div>
+            
+            
+            <div class="contact-us-footer">
+                <h2>Contact us!</h2>
+                <span onclick=""><i class="fa fa-phone"></i>+47 422 44 424</span>
+                <br>
+                <span><i class="fa fa-envelope"></i>info@tidalblue.com</span>
+            </div>
+            
+            
+            <div class="media-contact">
+                <h2>Stay in touch!</h2>
+                <a href="https://facebook.com"><i class="fa fa-facebook"></i></a>
+                <a href="https://instagram.com"><i class="fa fa-instagram"></i></a>
+                <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+                <a href="https://youtube.com"><i class="fa fa-youtube"></i></a>
+                <p class="designedBy"> | &copy; Tidal-blue 2020 | Designed by Tidal-blue |</p>
+            </div>
+            
+        
+        
+        </footer>
+    </section>
+
+
+
+<script>
+    function myFunction(i) {
+        i.classList.toggle("change");
+        var i = document.getElementById("links");
+        
+        if (i.style.display === "block") {
+            i.style.display = "none";
+        } 
+        else {
+            i.style.display = "block";
+            
+        }
+}
+    // Automatic Slideshow - change image every 5 seconds
+            var myIndex = 0;
+            carousel();
+
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                myIndex++;
+                if (myIndex > x.length) {myIndex = 1}
+                x[myIndex-1].style.display = "block";
+                setTimeout(carousel, 5000);
+
+            }
+
+    
+
+</script>
+
+</body>
+</html>

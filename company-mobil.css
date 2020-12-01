@@ -1,0 +1,262 @@
+html, body{
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    font-family: "Courier New", Courier, monospace;
+
+}
+
+hr{
+    display: block;
+    border-width: 2px;
+    padding: 2px;
+    color: #5aa8dc;
+    background-color: #5aa8dc;;
+}
+
+/* Menu */
+
+    .dropdown {
+        overflow: hidden;
+        position: fixed;
+        z-index: 99;
+        width: 100%;
+        background-color: rgba(19,85,137, .8);
+
+    }
+    
+
+    .dropdown #links {
+        display: none;
+        
+    }
+
+    .dropdown a {
+        color: white;
+        padding: 5% 5%;
+        text-decoration: none;
+        font-size: 80px;
+        display: block;
+        width: 100%;
+        background-color: rgba(19,85,137, .6);
+    }
+
+
+    .dropdown a:active {
+        color: black;
+    }
+
+    .links-div {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .logo-div {
+        width: 25%;
+        float: left;
+    }
+
+    .container {
+        display: block;
+        cursor: pointer;
+        margin: 5%;
+        float: right;
+        
+
+    }
+
+    .bar1, .bar2, .bar3 {
+        width: 50px;
+        height: 5px;
+        background-color: white;
+        margin: 6px 0;
+        transition: 0.4s;
+        display: block;
+    }
+
+    .change .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+        transform: rotate(-45deg) translate(-9px, 6px);
+    }
+
+    .change .bar2 {
+        opacity: 0;
+    }
+
+    .change .bar3 {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px);
+        transform: rotate(45deg) translate(-8px, -8px);
+    }
+
+    .logo {
+        width: 100%;
+        margin: 5%;
+        display: block;
+    }
+
+
+/* Page */
+#problem {
+    margin-top: 20%;
+}
+
+.konteiner{
+  width: 80%;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+    .konteiner h3 {
+        text-align: center;
+        align-content: center;
+        width: 100%;
+        font-size: 70px;
+    }
+    .konteiner p, li {
+        font-size: 40px;
+        text-align: center;
+        color: black;
+        margin-left: 10%;
+        margin-right: 10%;  
+
+    }
+
+h1 {
+        text-align: center;
+        align-content: center;
+        width: 100%;
+        font-size: 60px;
+    }
+
+.kort-kolonne{
+  width: 100%;
+    height: auto;
+  background: #fff;
+  position: relative;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.kort-kolonne:hover{
+      transform: scale(1.07);
+      transition: 0.2s ease-out;
+    }
+
+
+.i nnerste-kort {
+    text-align: center;
+    padding: 24px 12px;
+    box-shadow: 0px 1px 16px #5aa8dc;
+    height: 900px;
+
+}
+
+.innerste-kort span{
+    font-size: 50px;
+    transform: translateY(10px);
+    color: #515150;
+  }
+
+
+.avatar img{
+    border-radius: 50%;
+    width: 60%;
+    height: auto;
+    margin-top: 5%;
+}
+
+.avatar-info {
+    text-align: center;
+    width: 100%;
+}
+
+.kort:hover {
+    background: none;
+    color: #5aa8dc;
+    transform: scale(1.6);
+}
+
+.kort p {
+    margin-top: 20px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    max-height: 0;
+    opacity: 0;
+    transition: 0.3s linear;
+}
+
+
+
+/* Footer */
+
+
+.section-footer {
+    height: 950px;
+    background-color: rgba(19,85,137, .8);
+    font-size: 50px;
+    margin-bottom: 0;
+    color: white;
+}
+
+.designedBy {
+    background-color: rgba(19,85,137, 1);
+    font-size: 35px;
+    width: 100%;
+    text-align: center;
+}
+
+
+.logo-footer {
+    display: none;
+}
+
+.contact-us-footer {
+    width: 100%;
+}
+
+.media-contact {
+    width: 100%;
+}
+
+
+.fa {
+    color: white;
+    padding: 20px;
+    font-size: 90px;
+    
+}
+
+.fa:active {
+    color: black;
+    cursor: pointer;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+  .header {
+    position: absolute;
+}
+
+
+    .kort-kolonne:hover{
+      transform: scale(1.07);
+      transition: 0.2s ease-out;
+    }
+  }
+
+
+
+@media only screen and (min-width: 1000px) {
+  .header {
+    position: absolute;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .contact-info {
+    flex-direction: column;
+  }

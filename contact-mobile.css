@@ -1,0 +1,215 @@
+/* Style for mobile */
+*{
+  box-sizing: border-box;
+}
+
+body, html {
+    font-family: "Courier New", Courier, monospace;
+    margin: 0;
+    height: 100%;
+    color: black;
+    
+}
+    }
+    
+/* Menu */
+
+    .dropdown {
+        overflow: hidden;
+        position: fixed;
+        z-index: 99;
+        width: 100%;
+        background-color: rgba(19,85,137, .8);
+
+    }
+    
+
+    .dropdown #links {
+        display: none;
+        
+    }
+
+    .dropdown a {
+        color: white;
+        padding: 5% 5%;
+        text-decoration: none;
+        font-size: 80px;
+        display: block;
+        width: 100%;
+        background-color: rgba(19,85,137, .6);
+    }
+
+
+    .dropdown a:hover {
+        color: teal;
+    }
+
+    .links-div {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .logo-div {
+        width: 25%;
+        float: left;
+    }
+
+    .container {
+        display: block;
+        cursor: pointer;
+        margin: 5%;
+        float: right;
+        
+
+    }
+
+    .bar1, .bar2, .bar3 {
+        width: 50px;
+        height: 5px;
+        background-color: white;
+        margin: 6px 0;
+        transition: 0.4s;
+        display: block;
+    }
+
+    .change .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+        transform: rotate(-45deg) translate(-9px, 6px);
+    }
+
+    .change .bar2 {
+        opacity: 0;
+    }
+
+    .change .bar3 {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px);
+        transform: rotate(45deg) translate(-8px, -8px);
+    }
+
+    .logo {
+        width: 100%;
+        margin: 5%;
+        display: block;
+    }
+
+
+
+/* Page */
+    
+    .img1 {
+        background-image: url(Bilder/128396928_769832350411618_1537548631497447141_n.jpg);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: -1;
+        color: black;
+    }
+    
+    .section-main {
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: 0;
+        font-size: 80px;   
+    }
+
+.box{
+    margin: 20px;
+    max-width: 90%;
+    padding: 16px;
+    background-color: #f1f1f1;
+    opacity: 0.9;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    height: 90%;
+    
+    
+}
+.column {
+  padding: 30px;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 50px;
+    border: 1px solid #808080;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-size: 50px;
+}
+
+button[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 5% 30%;
+    border: 2px solid;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+button[type=submit]:active {
+    background-color: rgba(19,85,137, 1);
+    color: black;
+}
+
+/* Footer */
+
+
+.section-footer {
+    height: 950px;
+    background-color: rgba(19,85,137, .8);
+    font-size: 50px;
+    margin-top: -200%;
+    color: white;
+    bottom: -29.6%;
+    
+}
+
+.designedBy {
+    background-color: rgba(19,85,137, 1);
+    font-size: 35px;
+    width: 100%;
+    text-align: center;
+}
+
+
+.logo-footer {
+    display: none;
+}
+
+.contact-us-footer {
+    width: 100%;
+}
+
+.media-contact {
+    width: 100%;
+}
+
+
+.fa {
+    color: white;
+    padding: 20px;
+    font-size: 90px;
+    
+}
+
+.fa:active {
+    color: black;
+    cursor: pointer;
+}
+
+
+
+
+
+
+

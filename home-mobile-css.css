@@ -1,0 +1,266 @@
+/* Style for mobile */
+
+
+body {
+        font-family: "Courier New", Courier, monospace;
+        margin: 0;
+    }
+    
+    div {
+        display: block;
+    }
+
+/* Menu */
+
+    .dropdown {
+        overflow: hidden;
+        position: fixed;
+        z-index: 99;
+        width: 100%;
+        background-color: rgba(19,85,137, .8);
+
+    }
+    
+
+    .dropdown #links {
+        display: none;
+        
+    }
+
+    .dropdown a {
+        color: white;
+        padding: 5% 5%;
+        text-decoration: none;
+        font-size: 80px;
+        display: block;
+        width: 100%;
+        background-color: rgba(19,85,137, .6);
+    }
+
+
+    .dropdown a:active {
+        color: black;
+    }
+
+    .links-div {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .logo-div {
+        width: 25%;
+        float: left;
+    }
+
+    .container {
+        display: block;
+        cursor: pointer;
+        margin: 5%;
+        float: right;
+        
+
+    }
+
+    .bar1, .bar2, .bar3 {
+        width: 50px;
+        height: 5px;
+        background-color: white;
+        margin: 6px 0;
+        transition: 0.4s;
+        display: block;
+    }
+
+    .change .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+        transform: rotate(-45deg) translate(-9px, 6px);
+    }
+
+    .change .bar2 {
+        opacity: 0;
+    }
+
+    .change .bar3 {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px);
+        transform: rotate(45deg) translate(-8px, -8px);
+    }
+
+    .logo {
+        width: 100%;
+        margin: 5%;
+        display: block;
+    }
+
+
+
+/* Page */
+    
+    .img1 {
+        background-image: url(Bilder/Home/robert-bye-e1sTn8-hGEE-unsplash.jpg);
+        color: aliceblue;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: -1;
+
+    }
+    
+    .img2 {
+        background-image: url(Bilder/Home/naja-bertolt-jensen-Jk1ESCc5i-I-unsplash%202.jpg);
+        color: aliceblue;
+        position: relative;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: -1;
+
+    }
+    
+    .img3 {
+        background-image: url(Bilder/Home/nastuh-abootalebi-yWwob8kwOCk-unsplash.jpg);
+        color: aliceblue;
+        position: relative;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: -1;
+
+    }
+    
+    .section-main {
+        height: 1000px;
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: 0;
+        margin-bottom: 600px;
+        
+    } 
+    
+    .slogan {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30%;
+    }
+    
+    .slogan h1 {
+        text-align: center;
+        align-content: center;
+        width: 100%;
+        text-shadow: 2px 2px teal;
+        font-size: 90px;
+    }
+    .slogan h2 {
+        font-size: 50px;
+        text-align: center;
+        margin-top: 65%;
+        color: grey;
+    }
+    
+    .product {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    
+    .product h1 {
+        text-align: center;
+        align-content: center;
+        width: 100%;
+        text-shadow: 2px 2px teal;
+        font-size: 80px;
+        padding-top: 15%;
+    }
+    
+    .product h2 {
+        font-size: 50px;
+        text-align: center;
+        color: grey;
+        
+    }
+
+    .company {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30%;
+
+    }
+    
+    
+    .company h1 {
+        text-align: center;
+        align-content: center;
+        width: 100%;
+        text-shadow: 2px 2px teal;
+        font-size: 90px;
+        padding-top: 15%;
+
+    }
+    
+    .company h2 {
+        font-size: 50px;
+        text-align: center;
+        color: white;
+        margin-top: 30%;
+    }
+
+
+/* Footer */
+
+
+.section-footer {
+    height: 950px;
+    background-color: rgba(19,85,137, .8);
+    font-size: 50px;
+    margin-bottom: 0;
+    color: white;
+}
+
+.designedBy {
+    background-color: rgba(19,85,137, 1);
+    font-size: 35px;
+    width: 100%;
+    text-align: center;
+}
+
+
+.logo-footer {
+    display: none;
+}
+
+.contact-us-footer {
+    width: 100%;
+}
+
+.media-contact {
+    width: 100%;
+}
+
+
+.fa {
+    color: white;
+    padding: 20px;
+    font-size: 90px;
+    
+}
+
+.fa:active {
+    color: black;
+    cursor: pointer;
+}
