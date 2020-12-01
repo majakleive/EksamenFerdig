@@ -129,9 +129,11 @@ body {
         text-align: center;
         align-content: center;
         width: 100%;
-        text-shadow: 2px 2px teal;
+        text-shadow: 4px 4px black;
         font-size: 50px;
+        color: white;
     }
+
     .slogan h2 {
         font-size: 30px;
         text-align: center;
@@ -153,10 +155,10 @@ body {
         text-align: center;
         align-content: center;
         width: 100%;
-        text-shadow: 2px 2px black;
+        text-shadow: 4px 4px black;
         font-size: 50px;
         padding-top: 10%;
-        color: #ff9900;
+        color: #F56C07;
 
     }
     
@@ -181,16 +183,17 @@ body {
         text-align: center;
         align-content: center;
         width: 100%;
-        text-shadow: 2px 2px teal;
+        text-shadow: 2px 2px black;
         font-size: 50px;
         padding-top: 7%;
-
+        color: white;
     }
     
     .company h2 {
         font-size: 30px;
         text-align: center;
         color: white;
+        text-shadow: 2px 2px black;
         margin-top: 7%;
     }
 
